@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'FrutigerNeue-Bold';
+  src: url('FrutigerNeue-Bold.eot?#iefix') format('embedded-opentype'),  url('FrutigerNeue-Bold.otf')  format('opentype'),
+	     url('FrutigerNeue-Bold.woff') format('woff'), url('FrutigerNeue-Bold.ttf')  format('truetype'), url('FrutigerNeue-Bold.svg#FrutigerNeue-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

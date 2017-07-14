@@ -1,0 +1,261 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'FrutigerNeue-Bold';
+  src: url("../fonts/FrutigerNeue-Bold/FrutigerNeue-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/FrutigerNeue-Bold/FrutigerNeue-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/FrutigerNeue-Bold/FrutigerNeue-Bold.woff") format("woff"), url("../fonts/FrutigerNeue-Bold/FrutigerNeue-Bold.ttf") format("truetype"), url("../fonts/FrutigerNeue-Bold/FrutigerNeue-Bold.svg") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'FrutigerNeueLTW1G-Light';
+  src: url("../fonts/FrutigerNeueLTW1G-Light/FrutigerNeueLTW1G-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/FrutigerNeueLTW1G-Light/FrutigerNeueLTW1G-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/FrutigerNeueLTW1G-Light/FrutigerNeueLTW1G-Light.woff") format("woff"), url("../fonts/FrutigerNeueLTW1G-Light/FrutigerNeueLTW1G-Light.ttf") format("truetype"), url("../fonts/FrutigerNeueLTW1G-Light/FrutigerNeueLTW1G-Light.svg") format("svg");
+  /* Legacy iOS */ }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.container {
+  width: 1520px;
+  margin: 0 auto; }
+
+section {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.logo-block {
+  padding: 20px 0; }
+  .logo-block .logo-nespresso {
+    float: right;
+    margin-right: 60%; }
+
+.section-2 .text-block {
+  margin-left: 50%;
+  padding-top: 10px;
+  padding-bottom: 20px; }
+
+.section-2.img-bg {
+  position: relative; }
+  .section-2.img-bg:before {
+    content: "";
+    background: url(../images/cup_coffee.jpg) no-repeat;
+    position: absolute;
+    right: 56%;
+    left: 0;
+    top: 0;
+    height: 100%; }
+
+p {
+  font-family: 'FrutigerNeueLTW1G-Light';
+  font-size: 17px;
+  color: #585858;
+  line-height: 1.9em; }
+
+p.light {
+  font-family: 'FrutigerNeueLTW1G-Light';
+  color: #919191;
+  font-size: 14px;
+  margin-bottom: 25px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase; }
+
+h2 {
+  font-family: 'FrutigerNeueLTW1G-Light';
+  font-size: 72px;
+  color: #1e1e1e;
+  line-height: 1.4em;
+  font-weight: 100; }
+
+h3 {
+  font-family: 'FrutigerNeue-Bold';
+  font-size: 25px;
+  line-height: 1.9em;
+  text-align: center; }
+
+ul.list-info {
+  list-style-type: none;
+  padding-top: 20px; }
+  ul.list-info li {
+    float: left;
+    width: 20%;
+    padding: 0 10px; }
+    ul.list-info li p {
+      font-family: 'FrutigerNeue-Bold';
+      font-size: 15px;
+      color: #1e1e1e;
+      line-height: 1.7em;
+      letter-spacing: 0.2em;
+      text-align: center;
+      text-transform: uppercase; }
+    ul.list-info li.ico {
+      padding-top: 72px; }
+      ul.list-info li.ico.ico-1 {
+        background: url(../images/ico-1.png) no-repeat;
+        background-position: top center; }
+      ul.list-info li.ico.ico-2 {
+        background: url(../images/ico-2.png) no-repeat;
+        background-position: top center; }
+      ul.list-info li.ico.ico-3 {
+        background: url(../images/ico-3.png) no-repeat;
+        background-position: top center; }
+      ul.list-info li.ico.ico-4 {
+        background: url(../images/ico-4.png) no-repeat;
+        background-position: top center; }
+      ul.list-info li.ico.ico-5 {
+        background: url(../images/ico-5.png) no-repeat;
+        background-position: top center; }
+
+.section-4 {
+  background: rgba(234,218,199,1);
+background: -moz-linear-gradient(left, rgba(234,218,199,1) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(234,218,199,1)), color-stop(35%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(left, rgba(234,218,199,1) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(left, rgba(234,218,199,1) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(left, rgba(234,218,199,1) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to right, rgba(234,218,199,1) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eadac7', endColorstr='#ffffff', GradientType=1 ); }
+  .section-4 h3.title {
+    padding: 0 100px;
+    margin-bottom: 30px; }
+  .section-4 .wrap-form {
+    width: 77%;
+    margin: 0 auto; }
+  .section-4 ul.list-checkbox {
+    list-style-type: none; }
+    .section-4 ul.list-checkbox li {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 20px; }
+      .section-4 ul.list-checkbox li .toggle-btn {
+        padding: 0 25px; }
+      .section-4 ul.list-checkbox li p {
+        font-size: 15px; }
+  .section-4 .wrap-block {
+    width: 100%;
+    float: left; }
+  .section-4 .list-checkbox .info {
+    padding-right: 40px; }
+  .section-4 .input-wrap {
+    width: 45%;
+    text-align: right;
+    min-width: 300px; }
+    .section-4 .input-wrap .input-style {
+      font-family: 'FrutigerNeueLTW1G-Light';
+      height: 40px;
+      max-width: 265px;
+      width: 100%;
+      border: 1px solid #333333;
+      background: none;
+      border-radius: 4px;
+      padding: 0 17px;
+      color: #333333;
+      font-size: 14px; }
+    .section-4 .input-wrap input.input-style {
+      margin-bottom: 35px; }
+    .section-4 .input-wrap button.input-style {
+      background: #333;
+      font-size: 14px;
+      color: #fff;
+      text-transform: uppercase; }
+
+.section-5 {
+  text-align: center; }
+  .section-5 p {
+    font-size: 15px;
+    color: #585858; }
+
+.tgl {
+  display: none; }
+  .tgl, .tgl:after, .tgl:before,
+  .tgl *, .tgl *:after, .tgl *:before,
+  .tgl + .tgl-btn {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    .tgl::-moz-selection, .tgl:after::-moz-selection, .tgl:before::-moz-selection,
+    .tgl *::-moz-selection, .tgl *:after::-moz-selection, .tgl *:before::-moz-selection,
+    .tgl + .tgl-btn::-moz-selection {
+      background: none; }
+    .tgl::selection, .tgl:after::selection, .tgl:before::selection,
+    .tgl *::selection, .tgl *:after::selection, .tgl *:before::selection,
+    .tgl + .tgl-btn::selection {
+      background: none; }
+  .tgl + .tgl-btn {
+    outline: 0;
+    display: block;
+    width: 57px;
+    height: 27px;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff; }
+    .tgl + .tgl-btn:after, .tgl + .tgl-btn:before {
+      position: relative;
+      display: block;
+      content: "";
+      width: 44%;
+      height: 100%; }
+    .tgl + .tgl-btn:after {
+      left: 0; }
+    .tgl + .tgl-btn:before {
+      display: inline;
+      position: absolute;
+      top: 7px; }
+  .tgl:checked + .tgl-btn:after {
+    left: 56.5%; }
+
+.tgl-ios + .tgl-btn {
+  background: none;
+  border-radius: 20rem;
+  padding: 2px;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+  -webkit-box-shadow: inset 0 0 0 1px black;
+  box-shadow: inset 0 0 0 1px black; }
+  .tgl-ios + .tgl-btn:after {
+    border-radius: 2em;
+    background: #fff;
+    -webkit-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    -o-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    background: url(../images/toggle-ico.png) no-repeat;
+    background-size: contain; }
+  .tgl-ios + .tgl-btn:before {
+    content: "Нет";
+    left: 28px;
+    color: #585858;
+    -webkit-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -o-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+  .tgl-ios + .tgl-btn:active:after {
+    padding-right: .4em; }
+
+.tgl-ios:checked + .tgl-btn:active:after {
+  margin-left: -.4em; }
+
+.tgl-ios:checked + .tgl-btn:before {
+  content: "Да";
+  left: 12px;
+  color: #585858; }
