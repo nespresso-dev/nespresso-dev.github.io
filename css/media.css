@@ -85,7 +85,10 @@
 		margin-left: 0;
 	}
 	ul.list-info li{
-		width: 100%;
+		width: 50%;
+	}
+	ul.list-info li:nth-child(3){
+			width: 100%;
 	}
 	.logo-block .logo-nespresso{
 		float: none;
@@ -93,9 +96,7 @@
 	p{
 		font-size: 14px;
 	}
-	.section-1{
-		text-align: center;
-	}
+	
 	.section-4 ul.list-checkbox li .toggle-btn{
 		order: 2;
 		margin: 20px 0;
@@ -123,7 +124,7 @@
 		font-size: 15px;
 	}
 	ul.list-info li p{
-		font-size: 15px;
+		font-size: 12px;
 	}
 	h2{font-size: 34px;}
 	section{
@@ -171,6 +172,9 @@
 }
 
  /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
+@media only screen and (min-width : 2100px) {
+		.section-2.img-bg:before{
+			background-size: cover;
+			background-position: 3% 25%;
+		}
 }
