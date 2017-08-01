@@ -69,11 +69,13 @@ p.light {
   text-transform: uppercase; }
 
 h2 {
-  font-family: 'FrutigerNeueLTW1G-Light';
-  font-size: 72px;
+  font-family: 'FrutigerNeue-Bold';
+  font-size: 32px;
   color: #1e1e1e;
   line-height: 1.4em;
-  font-weight: 100; }
+  font-weight: 100;
+  margin-bottom: 10px;
+    }
 
 h3 {
   font-family: 'FrutigerNeue-Bold';
