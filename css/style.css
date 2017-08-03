@@ -164,9 +164,11 @@ ul.list-info {
       height: 40px;
       max-width: 265px;
       width: 100%;
-      border: 1px solid #333333;
+      border: 0;
+      outline: 0;
+      background: transparent;
+      border-bottom: 1px solid #333333;
       background: none;
-      border-radius: 4px;
       padding: 0 17px;
       color: #333333;
       font-size: 14px; }
